@@ -1,7 +1,6 @@
 export interface IUser {
-    user_id: number;
-    user_name: string;
-    user_email: string;
-    user_address: string;
+  user_id: string | any;
+  user_name: string | undefined;
+  user_email: string | undefined;
+  user_address: string | undefined;
 }
-
